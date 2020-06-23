@@ -1,0 +1,25 @@
+There are three ways to add CSS to HTML
+
+-Inline styling - YUK (not ok)
+-Embedded sheets - YUK  (not ok)
+-External style sheets - Cowabunga! (OK!)
+
+----------------------------------------------
+
+Inline styling
+- Time consuming 
+- Tricky to manage ad update
+- Messy
+
+- Good for very specialised rules
+ 
+------------------------ ----------------------
+
+ Embedded styling
+- Time consuming 
+- Hard to maintain and update
+  
+- Good for making specific page style
+
+------------------------------------------------
+

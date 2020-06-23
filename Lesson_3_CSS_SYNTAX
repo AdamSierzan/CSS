@@ -1,0 +1,32 @@
+css is a collection of rules
+-Each rule targets a specific tag or element on a HTML document
+-Rule which targets all "p" tags. etc/
+
+CSS rules are made of two components:
+Selector      Declaration
+#page-header {font-size: 10px;}
+
+-------------------------------------------------------------------------
+
+Selectors can target tag names, ID's, classes and many other things
+
+#header p {Declaration}
+.comment div {Declaration} # "." signify a class in css
+li {Declaration}
+
+-------------------------------------------------------------------------
+
+
+Declarations contain properties and values
+
+#selector { font-size:10px; } properties on left, value on right side
+
+#selector {
+    font-size; 10px;
+    color:red;
+}
+
+-------------------------------------------------------------------------
+
+
+

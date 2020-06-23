@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            
+            <style>
+                p{
+                    font-size: 10px;
+                }
+            </style>
+
+            <!-- embedded style above, it's good if we have like
+            one page, but what it we have like 50?!
+            When we have another page like contat_lesson_4. It wouldn't 
+            apply
+            To make it work, we would have to copy-paste this style to 
+            every page. 
+            Imagine having a welcome text on our front page, the only place
+            where we can see it. When we can use embeeded style:
+            -->
+
+            <style>
+                .welcome{
+                    font-size: 10px;
+                    color:blue
+                }
+            </style>
+        </head>
+
+    
+        <body>
+        
+            <p class="welcome">Welcome!</p>
+            <div id="header" style="position: absolute; top: 0; left: 0; width: 100; ">
+                <h1>Selectrors</h1>
+                <h2>In CSS</h2>
+                
+                
+                <!-- if we would like to apply e.i  with inline style, it would take a lot of work-->
+                
+                <!-- <p style="font-size: 10px;">Welcome to the website</p> 
+                <p style="font-size: 10px;">Welcome to the website</p>
+                <p style="font-size: 10px;">Welcome to the website</p>-->
+                
+                <!-- it's better to do it with a embedded style, to do it, go to head tag
+                and open style-->
+                <p>Welcome to the website</p>
+                <p>Welcome to the website</p>
+            </div>
+
+
+                <p>Hello ninjas</p>
+                
+        </body>
+    
+        </html>
