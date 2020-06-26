@@ -1,0 +1,25 @@
+body {
+    color: red;
+}
+
+div {
+    color: royalblue;
+}
+
+p {
+    color: saddlebrown;
+}
+
+/* This is a example of overwriting, 
+firstly we applied
+red color for whole body section,
+then we changed the div color,
+and then we decided to change p tag in div tag
+color to brown */
+
+/* The inheritance things doesn't always work
+ lets try to change span tag. It happens because 
+ default browser setting is set to a tags. It colors 
+ a tags on color blue */
+
+/* You need to know default browser style. */

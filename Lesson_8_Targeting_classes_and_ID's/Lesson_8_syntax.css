@@ -1,0 +1,27 @@
+/* ID"S */
+
+h2{
+    font-size: 24;
+
+}
+
+#content-header{
+    font-size: 18px;
+    color: hotpink;
+}
+/* so, by using # we define the tag with this is to be styled */
+
+/* Classes */
+
+span{
+    color: indigo;
+    display: block;
+}
+
+/* To apply CSS rule, can use ".", whatever comes next after "." is a class name */
+
+.deck{
+    color: lawngreen;
+}
+
+/* CSS is going to look on every class of deck on the page */
