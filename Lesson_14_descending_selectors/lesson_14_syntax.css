@@ -1,0 +1,13 @@
+/* This way we made declaration for descendents of main content 
+, of element iwth the p tag. Note we didnt influence the p tag 
+that wasnt desendent of main content */
+
+#main-content p{
+    color: red;
+
+}
+
+#main-content #sub-content p{
+    color: green;
+
+}
