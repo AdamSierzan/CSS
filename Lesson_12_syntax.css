@@ -1,0 +1,13 @@
+p {
+    color: red !important ; 
+}
+ 
+#main-content p{
+    color:green;
+}
+
+/* What if we want the P tags always rabeccapurple? To it, we make the important declaration. 
+To make an important declaration put "!important" after the tag  */
+/* its not the best idea to use important declaration
+It's good when you want to make one or two declarations, not too much of them
+IF you make tomany of them you dont  really know which one is important */
