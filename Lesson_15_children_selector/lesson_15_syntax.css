@@ -1,0 +1,7 @@
+/* to style direct childs of the main content, we use 
+
+child selectors */
+
+#main-content > p {
+    color: red;
+}
