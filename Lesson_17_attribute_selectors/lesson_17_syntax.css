@@ -1,0 +1,39 @@
+/* that's how we make attribute selector */
+
+ span[class]{
+     color: purple;
+ }
+
+ /* We can do it with any attribute */
+
+ div[id]{
+     background-color: red;
+
+ }
+ 
+ /* Now, what if we want to be more specific */
+
+a[title]{
+    color: salmon;
+}
+
+a[title="Search engine"]{
+    color: springgreen;
+}
+
+/* Let's try pattern matching*/
+/* We want to color all spans, however one of
+them has different class. TO do it we use tilda. 
+ */
+span[class~="deck"]{
+    color: red;
+}
+
+/* Now imagine we want to style, some download link
+what we have to do is: */
+
+a[href$="pdf"]{
+    color: seagreen;
+}
+
+/* It will style all hrefs with pdf at the end */

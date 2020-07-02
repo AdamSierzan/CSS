@@ -1,0 +1,12 @@
+/* If we want to style the p tags but only the ones that
+are just below the h2 tag, we want to use adjacet selectors
+ */
+
+
+ #all-articles h2 + p{
+     color: red;
+
+ }
+ p{
+     color: red;
+ }
